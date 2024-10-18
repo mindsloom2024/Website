@@ -1,0 +1,1334 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.landing {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #f5f5f5, #8f8f8f);
+    height: 479.938rem;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--nav-size);
+    color: var(--color-black);
+    font-family: var(--nav);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    position: absolute;
+    text-align: center;
+    top: 2.688rem;
+    left: 26rem;
+    width: 43.188rem;
+    height: 1.3rem;
+    color: var(--text-default-default);
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: flex;
+    font-family: 'Noto Sans';
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    font-weight: 500;
+  }
+  
+  /* Styling on hover */
+nav a:hover {
+    color: rgb(197, 145, 68); /* Change text color on hover */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+  }
+nav ul {
+    list-style: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline;
+    margin-right: 2.5px;
+}
+
+.hero-section {
+    position: absolute;
+    top: 9.375rem;
+    left: 15rem;
+    width: 66.875rem;
+    height: 54.875rem;
+    font-size: var(--body-base-size);
+    margin: auto;
+}
+
+.company-title {
+    position: absolute;
+    text-align: center;
+    top: 0rem;
+    left: 19.875rem;
+    font-size: var(--font-size-45xl);
+    letter-spacing: 1px;
+    line-height: 5.625rem;
+    font-weight: 800;
+    background: linear-gradient(0deg, #6a2e11, #d4591e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    width: 26.875rem;
+}
+
+.moto {
+    position: absolute;
+    text-align: center;
+    top: 3.938rem;
+    left: 16.5rem;
+    font-size: var(--font-size-7xl);
+    letter-spacing: 1px;
+    line-height: 5.625rem;
+    font-weight: 500;
+}
+
+.hero {
+    position: absolute;
+    top: 15.25rem;
+    left: 0rem;
+    width: 66.875rem;
+    height: 39.625rem;
+}
+
+.hero-start {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 66.875rem;
+    height: 20.875rem;
+    font-size: var(--font-size-45xl);
+    color: var(--text-default-default);
+}
+
+.hero-heading {
+    position: absolute;
+    top: 1.75rem;
+    left: 0rem;
+    width: 40.313rem;
+    height: 16.313rem;
+}
+
+.design {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    letter-spacing: 1px;
+    line-height: 5.625rem;
+    font-weight: 800;
+}
+
+.development-and {
+    position: absolute;
+    top: 5.313rem;
+    left: 0rem;
+    letter-spacing: 1px;
+    line-height: 5.625rem;
+    font-weight: 800;
+    color: var(--color-chocolate);
+}
+
+.digital-marketing {
+    margin: 0;
+}
+
+.digital-marketing {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    letter-spacing: -0.25px;
+    line-height: 5.625rem;
+    font-weight: 800;
+    display: inline-block;
+    width: 30.75rem;
+    height: 13.875rem;
+}
+
+.digital-marketing {
+    position: absolute;
+    top: 5.313rem;
+    left: 0rem;
+    letter-spacing: 1px;
+    line-height: 5.625rem;
+    font-weight: 800;
+    display: inline-block;
+    width: 40.313rem;
+    height: 11rem;
+}
+
+.digital-marketing-11-1-icon {
+    position: absolute;
+    top: 0rem;
+    left: 46rem;
+    width: 20.875rem;
+    height: 20.875rem;
+    object-fit: cover;
+}
+
+.consultation-box {
+    position: absolute;
+    top: 27.375rem;
+    left: 14.125rem;
+    border-radius: var(--br-21xl) 0px var(--br-21xl) 0px;
+    background-color: rgba(217, 217, 217, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    width: 39.419rem;
+    height: 11.688rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.consultation-box-desc {
+    position: absolute;
+    top: -0.9rem;
+    left: 2.024rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.25px;
+    line-height: 5.625rem;
+    display: inline-block;
+    width: 37.413rem;
+    height: 4.5rem;
+}
+
+.consultation-box-title {
+    position: absolute;
+    top: 0.5rem;
+    left: 2.024rem;
+    font-size: var(--font-size-7xl);
+    letter-spacing: 1px;
+    line-height: 5.625rem;
+    font-weight: 450;
+    display: inline-block;
+    width: 36.563rem;
+    height: 6.031rem;
+}
+
+.fname-box {
+    position: absolute;
+    top: 7.431rem;
+    left: 1.698rem;
+    border-radius: var(--br-21xl);
+    background-color: var(--color-snow);
+    width: 11.425rem;
+    height: 3.206rem;
+}
+
+input#first-name {
+    position: absolute;
+    top: 0.1rem;
+    left: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 3.75rem;
+    display: inline-block;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    outline: none;
+}
+
+.mail-box {
+    position: absolute;
+    top: 7.4rem;
+    left: 13.953rem;
+    width: 11.425rem;
+    height: 3.206rem;
+    border-radius: var(--br-21xl);
+    background-color: var(--color-snow);
+}
+
+input#email {
+    position: absolute;
+    top: 0.1rem;
+    left: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 3.75rem;
+    display: inline-block;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    outline: none;
+}
+
+#request-button {
+    position: absolute;
+    top: 7.25rem;
+    left: 26.125rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: var(--br-11xl);
+    background-color: rgba(187, 171, 27, 0.41);
+    width: 11.425rem;
+    height: 3.206rem;
+    font-size: var(--font-size-xl);
+    color: #000000;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+#request-button:hover {
+    background-color: rgba(213, 175, 21, 0.50);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.quote-box {
+    position: absolute;
+    top: 7.556rem;
+    left: 26.125rem;
+    width: 11.425rem;
+    height: 3.206rem;
+    color: var(--text-default-default);
+    border-radius: var(--br-21xl);
+    background-color: rgba(187, 171, 27, 0.41);
+}
+
+#services-section {
+    position: absolute;
+    top: 71.938rem;
+    left: 15rem;
+    width: 67.938rem;
+    height: 120.438rem;
+    font-size: var(--font-size-13xl);
+    color: var(--color-chocolate);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-heading {
+    position: absolute;
+    top: 0rem;
+    left: 15.5rem;
+    width: 36.813rem;
+    height: 6.75rem;
+    font-size: var(--font-size-45xl);
+    color: var(--color-black);
+}
+
+.services-included {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    letter-spacing: 1px;
+    line-height: 5.625rem;
+    font-weight: 800;
+    display: inline-block;
+    width: 36.813rem;
+    height: 6.75rem;
+}
+
+.creative-div {
+    position: absolute;
+    top: 12.438rem;
+    left: 0rem;
+    width: 67.938rem;
+    height: 29.375rem;
+    font-size: var(--font-size-7xl);
+    color: var(--color-black);
+}
+
+.creative-image {
+    position: absolute;
+    top: 0.188rem;
+    left: 35.125rem;
+    width: 32.813rem;
+    height: 29.188rem;
+    object-fit: cover;
+}
+
+.creative-container {
+    position: absolute;
+    top: 0.515rem;
+    left: 0rem;
+    box-shadow: 0px 2px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-21xl);
+    background-color: rgba(214, 210, 174, 0.1);
+    width: 32.506rem;
+    height: 28.444rem;
+}
+
+.creative1 {
+    position: absolute;
+    top: 0rem;
+    left: 11.875rem;
+    letter-spacing: 1px;
+    line-height: 5.625rem;
+    display: inline-block;
+    width: 9.938rem;
+    height: 4.875rem;
+    color: #b24b1a;
+    font-size: 2rem;
+}
+
+.creative-container ul {
+    margin-top: 5.5rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+.market-ad-div {
+    position: absolute;
+    top: 48.25rem;
+    left: 0.188rem;
+    width: 66.231rem;
+    height: 29.438rem;
+}
+
+.market-ad-image {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 29rem;
+    height: 29.438rem;
+    object-fit: cover;
+}
+
+.market-container {
+    position: absolute;
+    top: 0rem;
+    left: 33.563rem;
+    box-shadow: 0px 2px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-21xl);
+    background-color: rgba(221, 221, 217, 0.1);
+    width: 32.669rem;
+    height: 28.413rem;
+}
+
+.marketing-advertisement {
+    position: absolute;
+    top: 1.154rem;
+    left: 1.484rem;
+    letter-spacing: 1px;
+    line-height: 2.813rem;
+    display: inline-block;
+    width: 30rem;
+    height: 3.5rem;
+}
+
+.market-container ul {
+    margin-top: 5.5rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+.dev-div {
+    position: absolute;
+    top: 82.243rem;
+    left: 0.188rem;
+    width: 66.375rem;
+    height: 28.444rem;
+}
+
+.dev-image {
+    position: absolute;
+    top: 0.008rem;
+    left: 35.125rem;
+    width: 31.25rem;
+    height: 28.438rem;
+    object-fit: cover;
+}
+
+.dev-container {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    box-shadow: 0px 2px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-21xl);
+    background-color: rgba(220, 220, 216, 0.1);
+    width: 32.625rem;
+    height: 28.444rem;
+}
+
+.development {
+    position: absolute;
+    top: 0.883rem;
+    left: 9.25rem;
+    letter-spacing: 1px;
+    line-height: 2.813rem;
+    display: inline-block;
+    width: 15.938rem;
+    height: 2.75rem;
+}
+
+.dev-container ul {
+    margin-top: 5.5rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+#serv-know-button {
+    position: absolute;
+    top: 116.688rem;
+    left: 28rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: var(--br-11xl);
+    background-color: rgba(187, 171, 27, 0.35);
+    width: 11.875rem;
+    height: 3.75rem;
+    font-size: var(--font-size-xl);
+    color: #151414;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+#serv-know-button:hover {
+    background-color: rgba(187, 171, 27, 0.45);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#why-mindsloom-section {
+    position: absolute;
+    top: 201.25rem;
+    left: 15rem;
+    width: 66.875rem;
+    height: 95.375rem;
+}
+
+.why-mindsloom {
+    position: absolute;
+    top: 0rem;
+    left: 15.688rem;
+    font-size: var(--font-size-45xl);
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 800;
+}
+
+.why-us-1st-sec {
+    position: absolute;
+    top: 7.688rem;
+    left: 0.25rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 66.188rem;
+    height: 10.125rem;
+    font-size: var(--font-size-7xl);
+}
+
+.years-of-experience {
+    position: absolute;
+    top: -0.8rem;
+    left: 1rem;
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.exp-yrs {
+    position: absolute;
+    top: 2.4rem;
+    left: 7.188rem;
+    font-size: var(--font-size-11xl);
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 500;
+    color: var(--color-chocolate);
+    display: inline-block;
+    width: 3.125rem;
+    height: 4.188rem;
+}
+
+.experience {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    border-radius: var(--br-xl);
+    background-color: var(--color-silver-200);
+    width: 15.8rem;
+    height: 10.125rem;
+}
+
+.team-no {
+    position: absolute;
+    top: 2.4rem;
+    left: 7.188rem;
+    font-size: var(--font-size-11xl);
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 500;
+    color: var(--color-chocolate);
+    display: inline-block;
+    width: 3.125rem;
+    height: 4.188rem;
+}
+
+.team-members {
+    position: absolute;
+    top: -0.8rem;
+    left: 2.6rem;
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.team {
+    position: absolute;
+    top: 0rem;
+    left: 16.75rem;
+    border-radius: var(--br-xl);
+    background-color: var(--color-silver-200);
+    width: 15.8rem;
+    height: 10.125rem;
+}
+
+.total-projects {
+    position: absolute;
+    top: -0.8rem;
+    left: 3.2rem;
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.tot-projects {
+    position: absolute;
+    top: 2.4rem;
+    left: 7.188rem;
+    font-size: var(--font-size-11xl);
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 500;
+    color: var(--color-chocolate);
+    display: inline-block;
+    width: 3.125rem;
+    height: 4.188rem;
+}
+
+.projects {
+    position: absolute;
+    top: 0rem;
+    left: 33.563rem;
+    border-radius: var(--br-xl);
+    background-color: var(--color-silver-200);
+    width: 15.8rem;
+    height: 10.125rem;
+}
+
+.clients-retained {
+    position: absolute;
+    top: -0.8rem;
+    left: 2.2rem;
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.tot-clients {
+    position: absolute;
+    top: 2.4rem;
+    left: 7.188rem;
+    font-size: var(--font-size-11xl);
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 500;
+    color: var(--color-chocolate);
+    display: inline-block;
+    width: 3.125rem;
+    height: 4.188rem;
+}
+
+.clients {
+    position: absolute;
+    top: 0rem;
+    left: 50.438rem;
+    border-radius: var(--br-xl);
+    background-color: var(--color-silver-200);
+    width: 15.8rem;
+    height: 10.125rem;
+}
+
+.pricing-section {
+    position: absolute;
+    top: 22.688rem;
+    left: 0.313rem;
+    width: 66.563rem;
+    height: 41.938rem;
+    color: var(--color-chocolate);
+}
+
+.pricing-heading {
+    position: absolute;
+    top: 0rem;
+    left: 6.875rem;
+    width: 59.125rem;
+    height: 8.006rem;
+    color: var(--color-black);
+}
+
+.quality-at-an-container {
+    position: absolute;
+    top: 0rem;
+    left: calc(50% - 473px);
+    font-size: var(--font-size-37xl);
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 800;
+    display: inline-block;
+    width: 59.125rem;
+    height: 4.031rem;
+}
+
+.connect {
+    color: var(--color-chocolate);
+}
+
+.with-payment-options {
+    position: absolute;
+    top: 3.98rem;
+    left: 5.625rem;
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    display: inline-block;
+    width: 41.5rem;
+    height: 4.031rem;
+}
+
+.pricing-calculator {
+    position: absolute;
+    top: 11.408rem;
+    left: 0rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 66.563rem;
+    height: 30.531rem;
+    background-color: rgba(212, 165, 44, 0.1);
+    border-radius: var(--br-21xl);
+}
+
+.pricing-calculator-head {
+    position: absolute;
+    top: 1.866rem;
+    left: 4.684rem;
+    font-size: var(--font-size-13xl);
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    display: inline-block;
+    width: 18.45rem;
+    height: 3.731rem;
+}
+
+.content-type {
+    position: absolute;
+    top: 5.597rem;
+    left: 4.684rem;
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 500;
+    display: inline-block;
+    width: 7.594rem;
+    height: 3.731rem;
+}
+
+.select-content select {
+    position: absolute;
+    height: 10%;
+    width: 25%;
+    top: 30%;
+    left: 7%;
+    letter-spacing: -0.25px;
+    line-height: 1.875rem;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 1rem;
+    font-family: "Noto Sans";
+    border-radius: 1rem;
+    background-color: #c3beb2;
+    border-width: 0.1rem;
+}
+
+.word-count {
+    position: absolute;
+    top: 5.579rem;
+    left: 25rem;
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 500;
+    display: inline-block;
+    width: 7.025rem;
+    height: 3.731rem;
+}
+
+.counter input {
+    position: absolute;
+    top: 9.153rem;
+    left: 25rem;
+    border-radius: var(--br-3xs);
+    background-color: rgba(217, 217, 217, 0);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 16rem;
+    height: 3.069rem;
+    border-width: 0.1rem;
+    font-size: 1rem;
+    font-family: "Noto Sans";
+}
+
+.calc-button button {
+    position: absolute;
+    top: 28%;
+    left: 67%;
+    height: 3.6rem;
+    width: 12rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: rgba(187, 171, 27, 0.4);
+    font-family: "Noto Sans";
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.calc-button button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(187, 171, 27, 0.5);
+}
+
+.your-price {
+    position: absolute;
+    top: 16.5rem;
+    left: 27.316rem;
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 500;
+    display: inline-block;
+    width: 5.888rem;
+    height: 3.731rem;
+}
+
+.price-output {
+    position: absolute;
+    top: 19rem;
+    left: 27.188rem;
+    font-size: 2.25rem;
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #b24b1a, #c3744e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: auto;
+    height: 4.031rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.easy-steps {
+    position: absolute;
+    top: 73.375rem;
+    left: 0rem;
+    width: 66.063rem;
+    height: 22rem;
+}
+
+.strategies {
+    position: absolute;
+    top: 0rem;
+    left: 2rem;
+    width: 35rem;
+    height: 25rem;
+}
+
+.child {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    border-radius: 50%;
+    background-color: var(--color-chocolate);
+    width: 3.813rem;
+    height: 3.375rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.div1 {
+    position: absolute;
+    top: 2rem;
+    left: 0.063rem;
+    width: 3.813rem;
+    height: 3.375rem;
+    color: var(--background-default-default);
+}
+
+.b1 {
+    position: absolute;
+    top: 0.625rem;
+    left: 1.188rem;
+    letter-spacing: 1px;
+    line-height: 1.875rem;
+}
+
+.st-1 {
+    position: absolute;
+    top: 1.2rem;
+    left: 5.875rem;
+    letter-spacing: 1px;
+    margin: auto;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+.div2 {
+    position: absolute;
+    top: 9.813rem;
+    left: 0rem;
+    width: 3.813rem;
+    height: 3.375rem;
+    color: var(--background-default-default);
+}
+
+.b2 {
+    position: absolute;
+    top: 0.688rem;
+    left: 1.25rem;
+    letter-spacing: 1px;
+    line-height: 1.875rem;
+}
+
+.st-2 {
+    position: absolute;
+    top: 10.5rem;
+    left: 5.875rem;
+    letter-spacing: 1px;
+    line-height: 1rem;
+    font-weight: 500;
+    margin: auto;
+}
+
+.div3 {
+    position: absolute;
+    top: 17.188rem;
+    left: 0.063rem;
+    width: 3.813rem;
+    height: 3.375rem;
+    color: var(--background-default-default);
+}
+
+.b3 {
+    position: absolute;
+    top: 0.75rem;
+    left: 1.25rem;
+    letter-spacing: 1px;
+    line-height: 1.875rem;
+}
+
+.st-3 {
+    position: absolute;
+    top: 16.188rem;
+    left: 5.875rem;
+    letter-spacing: 1px;
+    line-height: 1rem;
+    font-weight: 500;
+    margin: auto;
+}
+
+.steps-heading {
+    position: absolute;
+    top: 0rem;
+    left: 45rem;
+    width: 23rem;
+    height: 25rem;
+    font-size: 3rem;
+}
+
+.st-head {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    font-size: var(--font-size-45xl);
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: var(--color-chocolate);
+}
+
+.st-sub-head {
+    position: absolute;
+    top: 12rem;
+    left: 0.688rem;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+#our-work-section {
+    position: absolute;
+    top: 306.125rem;
+    left: 15rem;
+    width: 63.5rem;
+    height: 48.063rem;
+    font-size: var(--font-size-45xl);
+}
+
+.our-work {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 63.5rem;
+    height: 39.5rem;
+}
+
+.our-work-child {
+    position: absolute;
+    top: 12.875rem;
+    left: 0rem;
+    background-color: var(--color-silver-100);
+    width: 28.125rem;
+    height: 26.625rem;
+}
+
+.our-work-heading {
+    position: absolute;
+    top: 0rem;
+    left: 22.125rem;
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 800;
+}
+
+.our-work-item {
+    position: absolute;
+    top: 12.875rem;
+    left: 35.375rem;
+    background-color: var(--color-silver-100);
+    width: 28.125rem;
+    height: 26.625rem;
+}
+
+.blog-box {
+    position: absolute;
+    top: 0rem;
+    left: calc(50% - 95px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-11xl);
+    background-color: var(--color-goldenrod-100);
+    width: 11.875rem;
+    height: 3.75rem;
+}
+
+.blogs {
+    position: absolute;
+    top: 1rem;
+    left: calc(50% - 27px);
+    letter-spacing: -0.25px;
+}
+
+#blog-button {
+    position: absolute;
+    top: 44.313rem;
+    left: calc(50% - 95px);
+    width: 11.875rem;
+    height: 3.75rem;
+    font-size: var(--font-size-xl);
+    color: var(--color-chocolate);
+}
+#about-us {
+    position: absolute;
+    top: 364.25rem;
+    left: 18rem;
+    width: 55.313rem;
+    height: 41.25rem;
+    font-size: 1.5rem;
+}
+.about-us1 {
+    position: absolute;
+    top: 0rem;
+    left: 18.5rem;
+    font-size: var(--font-size-45xl);
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 800;
+}
+.at-mindsloom-we-container {
+    position: absolute;
+    top: 6.938rem;
+    left: 0rem;
+    letter-spacing: 0.25px;
+    line-height: 3.125rem;
+    display: inline-block;
+    width: 55.313rem;
+    height: 34.313rem;
+}
+#contact-section {
+    position: absolute;
+    top: 415.625rem;
+    left: 15rem;
+    width: 66.188rem;
+    height: 35.5rem;
+    color: var(--text-default-default);
+}
+
+.form-section {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 66.188rem;
+    height: 35.5rem;
+}
+
+.form-contact {
+    left: 40rem;
+    height: 30rem;
+    width: 22rem;
+    position: absolute;
+    background-color: rgba(217, 217, 217, 0.6);
+    padding: 1.25rem;
+    border-radius: 0.8rem;
+    max-width: 25rem;
+    margin: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+.input-field,
+.textarea-field {
+    margin-bottom: 0.9rem;
+}
+
+.label {
+    font-family: 'NOTO SANS';
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    color: #333;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+    background-color: rgba(187, 171, 27, 0.15);
+    border:none;
+}
+
+.input input,
+.textarea textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 0.85rem;
+    border-radius: 0.4rem;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.textarea textarea {
+    height: 6.2rem;
+    resize: none;
+}
+
+.button-group {
+    text-align: center;
+}
+
+.button1 {
+    background-color: #a0b582;
+    padding: 0.8rem 1.25rem;
+    border-radius: 0.4rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button1:hover {
+    background-color: #8f9d6b;
+}
+
+
+.form-heading {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 30.75rem;
+    height: 30.438rem;
+    font-size: var(--font-size-45xl);
+    color: var(--color-black);
+}
+
+#contact-us {
+    position: absolute;
+    top: 13.438rem;
+    left: 0.062rem;
+    letter-spacing: -0.25px;
+    line-height: 4rem;
+    font-weight: 800;
+    color: var(--color-chocolate);
+    display: inline-block;
+    width: 22.313rem;
+    height: 5.188rem;
+}
+
+.contact-us-at {
+    position: absolute;
+    top: 19rem;
+    left: 0.062rem;
+    font-size: var(--font-size-3xl);
+    letter-spacing: -0.25px;
+    line-height: 2.5rem;
+    display: inline-block;
+    width: 27.338rem;
+    height: 9.75rem;
+}
+
+.whatsapp-btn {
+    position: absolute;
+    top: 29rem;
+    height: 3.5rem;
+    width: 12rem;
+    background-color: #a0b582;
+    border: none;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    justify-content: center;
+}
+
+.whatsapp-btn:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-btn img.whatsapp-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.whatsapp-btn span {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+.lets-connect {
+    position: absolute;
+    top: 0rem;
+    left: 15rem;
+    font-size: var(--font-size-37xl);
+    letter-spacing: -0.25px;
+    line-height: 5.625rem;
+    font-weight: 600;
+}
+
+.twitter-1-icon {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 3.188rem;
+    height: 3.188rem;
+    object-fit: cover;
+}
+
+.facebook-1-1 {
+    position: absolute;
+    top: 0rem;
+    left: 15.445rem;
+    width: 3.188rem;
+    height: 3.188rem;
+    object-fit: cover;
+}
+
+.linkedin-1-1 {
+    position: absolute;
+    top: 0rem;
+    left: 31.063rem;
+    width: 3.188rem;
+    height: 3.188rem;
+    object-fit: cover;
+}
+
+.social-1-1 {
+    position: absolute;
+    top: 0rem;
+    left: 46.506rem;
+    width: 3.188rem;
+    height: 3.188rem;
+    object-fit: cover;
+}
+
+.social-icons {
+    position: absolute;
+    top: 10.313rem;
+    left: 0rem;
+    width: 49.694rem;
+    height: 3.188rem;
+}
+
+.all-rights-reserved {
+    position: absolute;
+    top: 16.188rem;
+    left: 16.313rem;
+    letter-spacing: -0.25px;
+    line-height: 2.5rem;
+    font-weight: 500;
+}
+
+.connect-with-us {
+    position: absolute;
+    top: 5.625rem;
+    left: 5.5rem;
+    letter-spacing: -0.25px;
+    line-height: 2.5rem;
+}
+
+.connect-end {
+    position: absolute;
+    top: 460.125rem;
+    left: 20.438rem;
+    width: 49.694rem;
+    height: 18.688rem;
+    font-size: var(--font-size-3xl);
+}
+
+.services {
+    position: absolute;
+    top: 0rem;
+    left: 15.375rem;
+    font-weight: 600;
+    display: inline-block;
+    width: 5.75rem;
+    height: 1.238rem;
+}
+
+.why-us {
+    position: absolute;
+    top: 0rem;
+    left: 23.063rem;
+    font-weight: 600;
+    display: inline-block;
+    width: 5.75rem;
+    height: 1.238rem;
+}
+

@@ -1,0 +1,58 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+:root {
+    
+    /* fonts */
+    --nav: 'Noto Sans';
+    --body-base: Inter;
+    
+    /* font sizes */
+    --nav-size: 1.125rem;
+    --font-size-45xl: 4rem;
+    --font-size-7xl: 1.625rem;
+    --body-base-size: 1rem;
+    --font-size-13xl: 2rem;
+    --font-size-xl: 1rem;
+    --font-size-11xl: 1.875rem;
+    --font-size-37xl: 3.5rem;
+    --font-size-3xl: 1.375rem;
+    
+    /* Colors */
+    --text-default-default: #1e1e1e;
+    --color-black: #000;
+    --color-chocolate: #b24b1a;
+    --border-default-default: #d9d9d9;
+    --color-snow: rgba(251, 247, 247, 0.8);
+    --color-goldenrod-100: rgba(213, 175, 21, 0.05);
+    --color-silver-100: #c7c2b6;
+    --color-silver-200: rgba(190, 185, 173, 0.15);
+    --icon-default-tertiary: #b3b3b3;
+    --background-default-default: #fff;
+    
+    /* Spacing */
+    --space-600: 1.5rem;
+    --radius-200: 0.5rem;
+    --space-400: 1rem;
+    --space-200: 0.5rem;
+    --space-300: 0.75rem;
+    
+    /* Gaps */
+    --gap-5xs: 0.5rem;
+    
+    /* Paddings */
+    --padding-xs: 0.75rem;
+    --padding-base: 1rem;
+    
+    /* Border radiuses */
+    --br-21xl: 40px;
+    --br-11xl: 30px;
+    --br-xl: 20px;
+    --br-3xs: 10px;
+    --br-5xs: 8px;
+    
+}
