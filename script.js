@@ -22,11 +22,6 @@ window.addEventListener('scroll', () => {
         dropdownMenu.classList.remove('show');
     }
 });
-
-
-
-
-
 function calculatePrice() {
     // Get selected service value (price per word)
     const serviceRate = document.getElementById('service').value;
