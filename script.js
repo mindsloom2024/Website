@@ -1,3 +1,32 @@
+const menuToggle = document.getElementById('menu-toggle');
+const dropdownMenu = document.getElementById('dropdown-menu');
+
+menuToggle.addEventListener('click', () => {
+    dropdownMenu.classList.toggle('show'); // Toggle the display of the dropdown menu
+});
+
+// Optional: Close the dropdown menu when clicking outside of it
+document.addEventListener('click', (event) => {
+    if (!menuToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
+        dropdownMenu.classList.remove('show'); // Close dropdown menu if clicked outside
+    }
+});
+
+// Optional: Change navbar style on scroll
+window.addEventListener('scroll', () => {
+    const nav = document.querySelector('nav');
+    if (window.scrollY > 50) {
+        nav.classList.add('scrolled');
+    } else {
+        nav.classList.remove('scrolled');
+        dropdownMenu.classList.remove('show');
+    }
+});
+
+
+
+
+
 function calculatePrice() {
     // Get selected service value (price per word)
     const serviceRate = document.getElementById('service').value;
